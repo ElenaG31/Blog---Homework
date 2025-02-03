@@ -1,0 +1,114 @@
+body {
+  font-family: "Montserrat Alternates", sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background-color: #e6d6f3;
+  color: #333;
+}
+header {
+  background-color: #d4b9df;
+  background-size: cover;
+  background-position: center;
+  color: white;
+  padding: 6rem 3rem;
+  text-align: center;
+  position: relative;
+  height: 100px;
+  text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
+}
+header h1 {
+  padding: 20px 50px;
+  font-size: 3rem;
+  position: sticky;
+  top: 20px;
+  left: 1em;
+  margin-right: 1em;
+  font-family: "New Century Schoolbook", sans-serif;
+}
+
+header img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+main {
+  padding: 2rem;
+}
+footer {
+  background-color: #b582c9;
+  color: white;
+  text-align: center;
+  padding: 1rem 0;
+  margin-top: 2rem;
+}
+.blog-roll {
+  margin-top: 2rem;
+}
+ul {
+  list-style: disc;
+  color: #5c2472;
+  padding: 0;
+}
+ul li {
+  margin: 0.5rem 0;
+}
+ul li a {
+  text-decoration: none;
+  color: #743bb4;
+}
+ul li a:hover {
+  text-decoration: underline;
+}
+img {
+  display: block;
+  margin: 1rem auto;
+  max-width: 200px;
+  height: auto;
+  border-radius: 50%;
+}
+nav {
+  background-color: #e6d6f3;
+  position: absolute;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav ul li {
+  margin: 1rem 0;
+  text-align: left;
+}
+
+nav ul li a {
+  display: block;
+  padding: 0.5rem;
+  text-decoration: none;
+  color: #5c2472;
+  font-weight: bold;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+}
+
+nav ul li a:hover {
+  background-color: #9e5dd4;
+  color: white;
+  border-radius: 8px;
+}
+
+main {
+  margin-left: 300px;
+  padding: 1rem;
+}
+p {
+  background-color: #f2e9f7;
+  border: 1px solid #9f44bb;
+  padding: 1rem;
+  border-radius: 10px;
+  margin: 1rem 0;
+
+  box-shadow: 0 0 10px #9f44bb;
+  width: 80%;
+}
