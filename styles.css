@@ -10,7 +10,6 @@ header {
   background-color: #d4b9df;
   background-size: cover;
   background-position: center;
-  opacity: 3.3;
   color: white;
   padding: 6rem 3rem;
   text-align: center;
@@ -67,6 +66,7 @@ img {
   max-width: 200px;
   height: auto;
   border-radius: 50%;
+  float: left;
 }
 nav {
   background-color: #e6d6f3;
